@@ -8,14 +8,32 @@ body,
 
 #info {
   position: absolute;
-  top: 10px;
-  right: 295px;
-  text-align: right;
+  top: 10%;
+  /* Centra verticalmente */
+  left: 50%;
+  /* Centra horizontalmente */
+  transform: translate(-50%, -50%);
+  /* Ajusta la posición para que el centro del elemento sea el punto de referencia */
+  text-align: center;
+  /* Centra el texto */
   background: #229eec;
   color: white;
-  padding: 7px 10px;
+  padding: 25px 15px;
+  /* Aumenta el padding para hacer el elemento más grande */
   border-radius: 10px;
-  font-size: 17px;
+  font-size: 20px;
+  /* Aumenta el tamaño de la fuente */
   pointer-events: none;
   font-family: var(--leva-fonts-mono);
+  display: flex;
+  width: 50%;
+  /* Aumenta el ancho del elemento */
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 5px solid black;
+  height: 100%;
 }
