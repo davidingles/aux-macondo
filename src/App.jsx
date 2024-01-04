@@ -4,11 +4,7 @@ import { Stats, OrbitControls, Environment, useGLTF, Clone } from '@react-three/
 import { useControls } from 'leva'
 
 const Models = [
-  // { title: 'Hammer', url: './models/hammer.glb' },
-  // { title: 'Drill', url: './models/drill.glb' },
-  // { title: 'Tape Measure', url: './models/tapeMeasure.glb' },
-  // { title: 'blender', url: './models/blender.gltf' },
-  // { title: 'blender2', url: './models/blender2.glb' },
+
   { title: 'JAMONERO6', url: './models/JAMONERO6.glb' },
   { title: 'JAMONERO7', url: './models/JAMONERO7.glb' }
 ]
